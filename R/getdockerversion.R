@@ -11,14 +11,14 @@
 
 getRNAdockerversion <- function(){
   docker <- "keyan/r:v3"
-  shuchu<-paste("Newest RNAworkflow docker version",docker,sep="")
+  shuchu<-paste("Newest RNAworkflow docker version : ",docker,sep="")
   print(shuchu)
   write.table(docker,"Newest RNAworkflow docker version.txt")
 }
 
 getWESdockerversion <- function(){
   docker <- "keyan/wes:v1.1"
-  shuchu<-paste("Newest WESworkflow docker version",docker,sep="")
+  shuchu<-paste("Newest WESworkflow docker version : ",docker,sep="")
   print(shuchu)
   write.table(docker,"Newest WESworkflow docker version.txt")
 }
