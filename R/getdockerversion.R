@@ -10,7 +10,7 @@
 #'
 
 getRNAdockerversion <- function(){
-  docker <- "keyan/r:v5"
+  docker <- "keyan/r:v5.1"
   shuchu<-paste("Newest RNAworkflow docker version : ",docker,sep="")
   print(shuchu)
   write.table(docker,"Newest RNAworkflow docker version.txt",row.names=F,quote=F,col.names=F)
